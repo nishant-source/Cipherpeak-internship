@@ -1,0 +1,83 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- whole calc structure start from here -->
+    <div class="whole_container">
+      <!-- <div id="input_div"> -->
+      <!-- the input container start from here -->
+      <h1 id="input">0</h1>
+      <!-- <button style="font-weight:bold; font-size:30px; color:rgb(253, 255, 255); cursor: pointer; margin-left: 5px; background-color: rgb(21, 156, 53); width: 100%; border-radius: 10px;" onclick="remove_one()">c</button> -->
+      <!-- </div> -->
+      <!-- the input container ends here -->
+
+      <!-- All buttons container in a row here -->
+      <!-- first row -->
+      <div class="buttons">
+        <button class="btn_row" onclick="clearAll()">AC</button>
+        <button class="btn_row" onclick="remove_one()">
+          ⌫
+          <!-- <span
+            style="
+              background-color: rgb(6, 190, 232);
+              border-radius: 50% 0 0 50%;
+              width: 50px;
+              text-align: center;
+              color: black;
+              font-size: 28px;
+              text-transform: lowercase;
+            "
+            >x</span
+          > -->
+        </button>
+        <button class="btn_row" onclick="add_percentage()">%</button>
+        <button class="btn_row" onclick="appendOperator('/')">÷</button>
+      </div>
+      <!-- second row -->
+      <div class="buttons">
+        <!-- Numbers -->
+        <button class="btn_row" onclick="appendNumber('9')">9</button>
+        <button class="btn_row" onclick="appendNumber('8')">8</button>
+        <button class="btn_row" onclick="appendNumber('7')">7</button>
+        <button class="btn_row" onclick="appendOperator('*')">x</button>
+      </div>
+      <!-- third row -->
+      <div class="buttons">
+        <button class="btn_row" onclick="appendNumber('6')">6</button>
+        <button class="btn_row" onclick="appendNumber('5')">5</button>
+        <button class="btn_row" onclick="appendNumber('4')">4</button>
+        <button class="btn_row" onclick="appendOperator('-')">-</button>
+      </div>
+      <!-- fourth row -->
+      <div class="buttons">
+        <button class="btn_row" onclick="appendNumber('3')">3</button>
+        <button class="btn_row" onclick="appendNumber('2')">2</button>
+        <button class="btn_row" onclick="appendNumber('1')">1</button>
+        <button class="btn_row" onclick="appendOperator('+')">+</button>
+      </div>
+      <!-- fifth row -->
+      <div class="buttons">
+        <button class="btn_row" onclick="appendNumber('00')">00</button>
+        <button class="btn_row" onclick="appendNumber('0')">0</button>
+        <button class="btn_row" onclick="add_point()">.</button>
+        <button
+          class="btn_row"
+          onclick="solution()"
+          style="background-color: red"
+        >
+          =
+        </button>
+      </div>
+
+      <!-- whole calc structure ends here-->
+    </div>
+
+    <!-- all logic here -->
+    <script src="script.js"></script>
+  </body>
+</html>
