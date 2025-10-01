@@ -48,8 +48,6 @@ Landing-Page/
    ```bash
    git clone https://github.com/nishant-source/Cipherpeak-internship.git
    Navigate into the Landing Page folder:
+   cd Cipherpeak-internship/Landing-Page
+   Open index.html in your browser.
    ```
-
-2. cd Cipherpeak-internship/Landing-Page
-
-3. Open index.html in your browser.
