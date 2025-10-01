@@ -57,3 +57,5 @@ JavaScript (ES6) → Calculator logic
 100 % → 1
 
 5 / 0 → Infinity
+
+## Live lnk: https://website-calculator.netlify.app/
