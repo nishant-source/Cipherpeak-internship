@@ -8,9 +8,10 @@ The purpose of this internship was to learn, practice, and showcase practical we
 ## 📂 Projects Included
 
 ### 1. Personal Portfolio
-- Built using **HTML & CSS**.
-- Showcases my profile, skills, and sample work.
+- Built using **HTML, CSS & JS**.
+- Showcases my profile, skills, and real work.
 - Includes sections like About, Skills, Projects, Resume, and Contact.
+- You can see my skills and knowledge reflected in this project I created.
 
 ### 2. Landing Page
 - Designed a **responsive landing page** using **HTML & CSS**.
@@ -18,16 +19,14 @@ The purpose of this internship was to learn, practice, and showcase practical we
 
 ### 3. Calculator
 - A **basic calculator** made using **HTML, CSS, and JavaScript**.
-- Supports addition, subtraction, multiplication, and division.
+- Supports all possible outcomes what an calcultor can do.
 - Interactive and user-friendly interface.
 
 ---
 
 ## 🚀 Internship Details
 - **Domain:** Web Development  
-- **Organization:** CipherPeak  
-- **Duration:** As per offer letter (with extension flexibility if required)  
-- **Deliverables:** Completion Certificate (CC) and Letter of Recommendation (LOR) upon successful completion.  
+- **Organization:** CipherPeak    
 
 ---
 
